@@ -5,7 +5,7 @@
 // server name
 $sname= "localhost";
 // username
-$unmae= "root";
+$uname= "root";
 // password may be empty or not it's optional
 $password = "";
 
@@ -13,7 +13,7 @@ $password = "";
 $db_name = "test_db";
 
 // code for connecting webpage with mysql using "mysqli_connect function"
-$conn = mysqli_connect($sname, $unmae, $password, $db_name);
+$conn = mysqli_connect($sname, $uname, $password, $db_name);
 
 
 // condition for connection failed.
